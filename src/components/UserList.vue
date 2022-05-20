@@ -110,6 +110,10 @@ export default {
       this.$store.dispatch("editUser", {
         id: id, name: this.firstname, job: 'leader'
       });
+      this.firstname = 'Michael';
+      this.lastname = "Jackson";
+      this.edit = false;
+
     },
     deleteUser(id) {
       this.$store.dispatch("deleteUser", { id: id });

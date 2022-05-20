@@ -4,12 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-
-
-    "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
-        "lint": "npm run lint:js",
-        "lintfix": "npm run lint:js -- --fix"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "axios": "^0.27.2",
